@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js.js"></script>
+</head>
+<body style="height:3000px;">
+	<div style="background-color: lightblue; width: 300px; padding: 5px;">
+		<form>
+		<span id="text1">Enter password</span> <br>
+		<input type="Password" id="passwrd"> 
+		<input type="checkbox" id="checkbox">
+		<label for="checkbox">check</label>
+		<br>
+		<button id="hideshow" type="button">click to hide</button>
+		<button id="subm" type="submit" disabled>submit</button>
+		</form>
+	</div>
+	<div style="width: 500px; background-color: lightblue;">
+		<p id="fadetext">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <br>
+			<strong> Press on any space in paragraph so it fade.</strong>
+		</p>
+		
+	</div>
+	<div style=" position: fixed; bottom: 30px;">
+		<button type="button" id="scroll">
+      Click to scroll to top
+  </button>
+	</div>
+	<div style="width: 100%; height: 500px; background-color: gray;">
+		<div style="width: 100px; height:100px; background-color: red; text-align: center; position: absolute; margin: 6px;" id="toanimate">
+			Animation
+		</div>
+		<div style="position: absolute; right: 20px; bottom: 20px;">
+			<button type="button" id="animation">Animate</button>
+			<button type="button" id="reset">Reset</button>
+		</div>
+	</div>
+	<div style="background-color: lightcoral; width: 500px; height: 200px; ">
+	<form>
+		<label>Maximum 150 characters</label><br>
+		<textarea id="textarea" maxlength="150"></textarea><br>
+		<span id="anyid">150</span> characters remaining
+	</form>
+	</div>
+</body>
+</html>
